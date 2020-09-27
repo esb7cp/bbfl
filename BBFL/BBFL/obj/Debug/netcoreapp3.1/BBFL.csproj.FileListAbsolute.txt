@@ -1,0 +1,15 @@
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\bin\Debug\netcoreapp3.1\BBFL.exe
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\bin\Debug\netcoreapp3.1\BBFL.deps.json
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\bin\Debug\netcoreapp3.1\BBFL.runtimeconfig.json
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\bin\Debug\netcoreapp3.1\BBFL.runtimeconfig.dev.json
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\bin\Debug\netcoreapp3.1\BBFL.dll
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\bin\Debug\netcoreapp3.1\BBFL.pdb
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\obj\Debug\netcoreapp3.1\BBFL.csprojAssemblyReference.cache
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\obj\Debug\netcoreapp3.1\BBFL.AssemblyInfoInputs.cache
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\obj\Debug\netcoreapp3.1\BBFL.AssemblyInfo.cs
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\obj\Debug\netcoreapp3.1\BBFL.dll
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\obj\Debug\netcoreapp3.1\BBFL.pdb
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\obj\Debug\netcoreapp3.1\BBFL.genruntimeconfig.cache
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\bin\Debug\netcoreapp3.1\CsvHelper.dll
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\obj\Debug\netcoreapp3.1\BBFL.csproj.CoreCompileInputs.cache
+C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\obj\Debug\netcoreapp3.1\BBFL.csproj.CopyComplete

@@ -1,0 +1,36 @@
+
+Log Entry : 13:39:09 Sunday, September 27, 2020
+Exception in Object reference not set to an instance of an object. in Main
+  Message:System.NullReferenceException: Object reference not set to an instance of an object.
+   at BBFL.Program.Main(String[] args) in C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\Program.cs:line 34
+-------------------------------
+
+Log Entry : 13:41:05 Sunday, September 27, 2020
+Exception in Object reference not set to an instance of an object. in Main
+  Message:System.NullReferenceException: Object reference not set to an instance of an object.
+   at BBFL.Program.Main(String[] args) in C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\Program.cs:line 34
+-------------------------------
+
+Log Entry : 13:41:55 Sunday, September 27, 2020
+Exception in Object reference not set to an instance of an object. in Main
+  Message:System.NullReferenceException: Object reference not set to an instance of an object.
+   at BBFL.Program.Main(String[] args) in C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\Program.cs:line 35
+-------------------------------
+
+Log Entry : 13:42:24 Sunday, September 27, 2020
+Exception in Object reference not set to an instance of an object. in Main
+  Message:System.NullReferenceException: Object reference not set to an instance of an object.
+   at BBFL.Program.Main(String[] args) in C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\Program.cs:line 34
+-------------------------------
+
+Log Entry : 13:43:26 Sunday, September 27, 2020
+Exception in Object reference not set to an instance of an object. in Main
+  Message:System.NullReferenceException: Object reference not set to an instance of an object.
+   at BBFL.Program.Main(String[] args) in C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\Program.cs:line 35
+-------------------------------
+
+Log Entry : 13:45:59 Sunday, September 27, 2020
+Exception in Object reference not set to an instance of an object. in Main
+  Message:System.NullReferenceException: Object reference not set to an instance of an object.
+   at BBFL.Program.Main(String[] args) in C:\Users\esb54\source\repos\bbfl\BBFL\BBFL\Program.cs:line 38
+-------------------------------
