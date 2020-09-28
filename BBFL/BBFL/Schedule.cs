@@ -20,29 +20,14 @@ public class Schedule
 	//0 is an away game, 1 is a home game
 
 
-	/*public static Schedule[] ReadInScheduleFromCSV(string path, ProTeam[] teams)
+	public static Schedule[] ReadInScheduleFromCSV(string year, ProTeam team)
 	{
+		string path = "csv_files/schedules/year_" + year + "/" + team.Team.ToLower() + ".csv";
 		var reader = new StreamReader(path);
 		var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
-		csv.Read();
-		foreach (var x in teams)
-        {
-			Schedule[] schedule = new Schedule[NumOfGames];
-			for (int i = 0; i < NumOfGames; i++)
-            {
-				schedule[i].Place = csv.GetField<int>(1);
-				schedule[i].Opponent = csv.GetField<string>(3);
+		var records = csv.GetRecords<Schedule>();
 
-			}
-
-		}
-
-		
-	}*/
-	/*
-	 * Idea on how to read in schedule data: 
-	 * every home/away be in their own csv file,
-	 * every opponent be in their own csv file,
-	 * make both of those csv files have the id of the team
-	 */
+		Schedule[] s = records.ToArray();
+		return s;
+	}
 }

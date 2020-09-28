@@ -3,6 +3,7 @@ using System;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using static Schedule;
 
 //This class is for professional teams
 public class ProTeam
@@ -33,7 +34,7 @@ public class ProTeam
 	public string Region { get; set; }
 	//The region that the team places in
 	//Example: Midwest
-	public Schedule[] Schedule { get; set; }
+	public Schedule[] Games { get; set; }
 	//This is the current schedule of the team
 	
 
