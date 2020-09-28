@@ -13,6 +13,9 @@ public class UtilityFunctions
 	public static string filePathError = "../../../ExceptionLogs/ExceptionLog_" + DateTime.Now.ToString("yyyy-MM-dd") + ".txt";
 	//This global variable is the file path to write error messages to
 
+	public static string pathTo_pro_teams = "csv_files/pro_teams.csv";
+	//This global variable is the file path to the csv that contains all the teams.
+
 	/***********************************************************************************
 	*						FUNCTIONS												   *
 	***********************************************************************************/

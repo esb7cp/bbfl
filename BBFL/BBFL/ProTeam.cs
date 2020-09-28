@@ -1,4 +1,8 @@
-﻿using System;
+﻿using CsvHelper;
+using System;
+using System.Globalization;
+using System.IO;
+using System.Linq;
 
 //This class is for professional teams
 public class ProTeam
@@ -26,4 +30,32 @@ public class ProTeam
 	public string Abbreviation { get; set; }
 	//The abbreviation of the team. 
 	//Example: STL
+	public string Region { get; set; }
+	//The region that the team places in
+	//Example: Midwest
+	public Schedule[] Schedule { get; set; }
+	//This is the current schedule of the team
+	
+
+	/***********************************************************************************
+	 *						FUNCTIONS												   *
+	***********************************************************************************/
+	public static ProTeam[] ReadInTeamsFromCSV(string path)
+    {
+		var reader = new StreamReader(path);
+		var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
+		var records = csv.GetRecords<ProTeam>();
+		records = records.ToArray();
+		ProTeam[] teams = new ProTeam[records.Count<ProTeam>()];
+		int i = 0;
+		foreach (var x in records)
+		{
+			teams[i] = x;
+			i++;
+		}
+		return teams;
+	}
+	//This function reads in the list of teams from the CSV file that contains them.
+	//Inputs: The path to the CSV file
+	//Outputs: The array with all the teams in it
 }

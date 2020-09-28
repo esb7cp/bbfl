@@ -1,34 +1,12 @@
-﻿using CsvHelper;
-using System;
-using System.Globalization;
-using System.IO;
-using System.Linq;
+﻿using System;
 
 namespace BBFL
 {
     class Program
     {
-        static string path = "csv_files/pro_teams.csv";
         static void Main(string[] args)
         {
-            var reader = new StreamReader(path);
-            var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
-            var records = csv.GetRecords<ProTeam>();
-            records = records.ToArray();
-            ProTeam[] teams = new ProTeam[records.Count<ProTeam>()];
-            int i = 0;
-            foreach(var x in records)
-            {
-                ProTeam y = new ProTeam()
-                {
-                    Team = x.Team,
-                    Mascot = x.Mascot,
-                    Id = x.Id,
-                    Abbreviation = x.Abbreviation
-                };
-                teams[i] = y;
-                i++;
-            }
+            var teams = ProTeam.ReadInTeamsFromCSV(UtilityFunctions.pathTo_pro_teams);
             try
             {
                 for (int j = 0; j < teams.Length; j++)

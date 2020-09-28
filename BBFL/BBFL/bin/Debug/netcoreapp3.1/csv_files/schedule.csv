@@ -1,0 +1,21 @@
+Team,Place,Opponent,Place,Opponent,Place,Opponent,Place,Opponent,Place,Opponent,Place,Opponent,Place,Opponent,Place,Opponent,Place,Opponent,Place,Opponent,Place,Opponent,Place,Opponent,Place,Opponent,Place,Opponent
+Geckle,0,Heartland,1,N. Duck.,0,N. Holly,0,Northma.,1,Beanland,0,Hipcoast,1,Nutland,1,N. Holly,0,N. Duck.,1,Heartland,0,Midland,1,Teegra,1,Southgla.,0,Poundla.
+Heartland,1,Geckle,0,N. Holly,1,N. Duck.,0,Pebum,1,Indyon,0,Logland,1,Oasis,0,N. Duck.,1,N. Holly,0,Geckle,0,Terro,1,Tiggland,1,Welss,0,Titania
+New Duckland,1,N. Holly,0,Geckle,0,Heartland,1,Midland,1,Southgla.,0,Poundla.,0,Teegra,1,Heartland,1,Geckle,0,N. Holly,0,Beanland,0,Hipcoast,1,Nutland,1,Northma.
+New Holly,0,N. Duck.,1,Heartland,1,Geckle,1,Terro,1,Welss,0,Titania,0,Tiggland,0,Geckle,0,Heartland,1,N. Duck.,0,Indyon,0,Logland,1,Oasis,1,Pebum
+Northmane,0,Pebum,1,Teegra,0,Tiggland,1,Geckle,0,Nutland,0,Midland,1,Hipcoast,1,Tiggland,0,Teegra,1,Pebum,1,Poundla.,0,Southgla.,1,Beanland,0,N. Duck.
+Pebum,1,Northma.,0,Tiggland,1,Teegra,1,Heartland,0,Oasis,0,Terro,1,Logland,0,Teegra,1,Tiggland,0,Northma.,1,Titania,0,Welss,1,Indyon,0,N. Holly
+Teegra,1,Tiggland,0,Northma.,0,Pebum,0,Beanland,0,Poundla.,1,Southgla.,1,N. Duck.,1,Pebum,1,Northma.,0,Tiggland,1,Hipcoast,0,Geckle,0,Midland,1,Nutland
+Tiggland,0,Teegra,1,Pebum,1,Northma.,0,Indyon,0,Titania,1,Welss,1,N. Holly,0,Northma.,0,Pebum,1,Teegra,1,Logland,0,Heartland,0,Terro,1,Oasis
+Beanland,0,Indyon,1,Midland,0,Terro,1,Teegra,0,Geckle,1,Nutland,0,Southgla.,1,Terro,0,Midland,1,Indyon,1,N. Duck.,0,Poundla.,0,Northma.,1,Hipcoast
+Indyon,1,Beanland,0,Terro,1,Midland,1,Tiggland,0,Heartland,1,Oasis,0,Welss,0,Midland,1,Terro,0,Beanland,1,N. Holly,0,Titania,0,Pebum,1,Logland
+Midland,1,Terro,0,Beanland,0,Indyon,0,N. Duck.,0,Hipcoast,1,Northma.,1,Poundla.,1,Indyon,1,Beanland,0,Terro,1,Geckle,0,Nutland,1,Teegra,0,Southgla.
+Terro,0,Midland,1,Indyon,1,Beanland,0,N. Holly,0,Logland,1,Pebum,1,Titania,0,Beanland,0,Indyon,1,Midland,1,Heartland,0,Oasis,1,Tiggland,0,Welss
+Hipcoast,0,Logland,1,Southgla.,0,Welss,0,Nutland,1,Midland,1,Geckle,0,Northma.,1,Welss,0,Southgla.,1,Logland,0,Teegra,1,N. Duck.,1,Poundla.,0,Beanland
+Logland,1,Hipcoast,0,Welss,1,Southgla.,0,Oasis,1,Terro,1,Heartland,0,Pebum,0,Southgla.,1,Welss,0,Hipcoast,0,Tiggland,1,N. Holly,1,Titania,0,Indyon
+Southglace,1,Welss,0,Hipcoast,0,Logland,1,Poundla.,0,N. Duck.,0,Teegra,1,Beanland,1,Logland,1,Hipcoast,0,Welss,0,Nutland,1,Northma.,0,Geckle,1,Midland
+Welss,0,Southgla.,1,Logland,1,Hipcoast,1,Titania,0,N. Holly,0,Tiggland,1,Indyon,0,Hipcoast,0,Logland,1,Southgla.,0,Oasis,1,Pebum,0,Heartland,1,Terro
+Nutland,0,Oasis,1,Poundla.,0,Titania,1,Hipcoast,1,Northma.,0,Beanland,0,Geckle,1,Titania,0,Poundla.,1,Oasis,1,Southgla.,1,Midland,0,N. Duck.,0,Teegra
+Oasis,1,Nutland,0,Titania,1,Poundla.,1,Logland,1,Pebum,0,Indyon,0,Heartland,0,Poundla.,1,Titania,0,Nutland,1,Welss,1,Terro,0,N. Holly,0,Tiggland
+Poundland,1,Titania,0,Nutland,0,Oasis,0,Southgla.,1,Teegra,1,N. Duck.,0,Midland,1,Oasis,1,Nutland,0,Titania,0,Northma.,1,Beanland,0,Hipcoast,1,Geckle
+Titania,0,Poundla.,1,Oasis,1,Nutland,0,Welss,1,Tiggland,1,N. Holly,0,Terro,0,Nutland,0,Oasis,1,Poundla.,0,Pebum,1,Indyon,0,Logland,1,Heartland
