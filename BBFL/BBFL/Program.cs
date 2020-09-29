@@ -6,13 +6,14 @@ namespace BBFL
     {
         static void Main(string[] args)
         {
+            //Gets teams loaded into memory
             var teams = ProTeam.ReadInTeamsFromCSV(UtilityFunctions.pathTo_pro_teams);
-            teams[0].Games = Schedule.ReadInScheduleFromCSV("1", teams[0]);
-            int counter = 1;
-            foreach(var s in teams[0].Games)
+
+            //Right now, the rest of this application gets one schedule for one team and prints it out, for testing purposes.
+            teams[0].Stats = Statistics.ReadStatsFromCSV("1", teams[0]);
+            
             {
-                Console.WriteLine("Week: " + counter + " " + s.Opponent + " " + s.Place);
-                counter++;
+                Console.WriteLine("Overall: " + teams[0].Stats.Overall);
             }
 
             Console.ReadLine();

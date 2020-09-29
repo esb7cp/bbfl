@@ -16,7 +16,11 @@ public class UtilityFunctions
 	public static string pathTo_pro_teams = "csv_files/pro_teams.csv";
 	//This global variable is the file path to the csv that contains all the teams.
 
-	
+	/***********************************************************************************
+	*						CONSTANTS												   *
+	***********************************************************************************/
+	public const int NumOfGames = 14;
+	//This variable is the number of games played in the regular season
 
 	/***********************************************************************************
 	*						FUNCTIONS												   *

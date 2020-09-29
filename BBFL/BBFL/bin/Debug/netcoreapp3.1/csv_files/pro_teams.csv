@@ -1,25 +1,25 @@
-﻿Team,Mascot,Id,Abbreviation,Region
-Geckle,Pioneers,0,GEC,EAST
-Heartland,Hunters,1,HL,EAST
-New Duckland,Citizens,2,ND,NORTH
-New Holly,Captains,3,NH,NORTH
-Northmane,Lions,4,NM,NORTH
-Pebum,Statesmen,5,PEB,NORTH
-Teegra,Tundra,6,TEG,NORTH
-Tiggland,Tigers,7,TIG,NORTH
-Beanland,Beavers,8,BL,CENTRAL
-Indyon,Cyclones,9,IND,CENTRAL
-Midland,Wolves,10,ML,CENTRAL
-Terro,Wings,11,TER,CENTRAL
-Hipcoast,Explorers,12,HC,WEST
-Logland,Bears,13,LL,NORTH
-Southglace,Torchbearers,14,SG,SOUTH
-Welss,Firestorm,15,WEL,WEST
-Nutland,Natives,16,NL,CENTRAL
-Oasis,Predators,17,OAS,SOUTH
-Poundland,Beasts,18,PL,SOUTH
-Titania,Wildcats,19,TIT,SOUTH
-Hyland,Hounds,20,HYL,UNKNOWN
-Yonder Isle,Wave,21,YI,UNKNOWN
-Zeland,Critters,22,ZL1,UNKNOWN
-Zeland,Crowns,23,ZL2,UNKNOWN
+﻿Team,Mascot,Id,Abbreviation,Region,Overall,Offense,Defense,Pass,Run,OffenseStrength,OffenseSpeed,Coverage,Rush,DefenseStrength,DefenseSpeed,Total,Weather,Home
+Geckle,Pioneers,0,GEC,EAST,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Heartland,Hunters,1,HL,EAST,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+New Duckland,Citizens,2,ND,NORTH,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+New Holly,Captains,3,NH,NORTH,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Northmane,Lions,4,NM,NORTH,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Pebum,Statesmen,5,PEB,NORTH,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Teegra,Tundra,6,TEG,NORTH,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Tiggland,Tigers,7,TIG,NORTH,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Beanland,Beavers,8,BL,CENTRAL,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Indyon,Cyclones,9,IND,CENTRAL,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Midland,Wolves,10,ML,CENTRAL,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Terro,Wings,11,TER,CENTRAL,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Hipcoast,Explorers,12,HC,WEST,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Logland,Bears,13,LL,NORTH,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Southglace,Torchbearers,14,SG,SOUTH,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Welss,Firestorm,15,WEL,WEST,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Nutland,Natives,16,NL,CENTRAL,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Oasis,Predators,17,OAS,SOUTH,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Poundland,Beasts,18,PL,SOUTH,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Titania,Wildcats,19,TIT,SOUTH,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Hyland,Hounds,20,HYL,UNKNOWN,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Yonder Isle,Wave,21,YI,UNKNOWN,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Zeland,Critters,22,ZL1,UNKNOWN,0,0,0,0,0,0,0,0,0,0,0,0,no,0
+Zeland,Crowns,23,ZL2,UNKNOWN,0,0,0,0,0,0,0,0,0,0,0,0,no,0

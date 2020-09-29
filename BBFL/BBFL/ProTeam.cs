@@ -36,6 +36,8 @@ public class ProTeam
 	//Example: Midwest
 	public Schedule[] Games { get; set; }
 	//This is the current schedule of the team
+	public Statistics Stats { get; set; }
+	//This is the object that contains all the stats necessary for the simulator
 	
 
 	/***********************************************************************************
