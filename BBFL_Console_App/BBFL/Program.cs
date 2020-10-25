@@ -9,11 +9,12 @@ namespace BBFL
             //Gets teams loaded into memory
             var teams = ProTeam.ReadInTeamsFromCSV(UtilityFunctions.pathTo_pro_teams);
 
-            //Right now, the rest of this application gets one schedule for one team and prints it out, for testing purposes.
+            //Gets two teams stats and load that into memory
             teams[0].Stats = Statistics.ReadStatsFromCSV("1", teams[0]);
-            {
-                Console.WriteLine("Overall: " + teams[0].Stats.Overall);
-            }
+            teams[1].Stats = Statistics.ReadStatsFromCSV("1", teams[1]);
+
+            float temp = Simulator.DoSimulation(teams[0], teams[1]);
+            Console.WriteLine(teams[0].Team + " has a " + temp + "% chance to beat " + teams[1].Team);
 
             Console.ReadLine();
         }
