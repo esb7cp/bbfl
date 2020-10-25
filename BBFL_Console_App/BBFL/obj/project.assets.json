@@ -127,11 +127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\esb54\\source\\repos\\bbfl\\BBFL\\BBFL\\BBFL.csproj",
+      "projectUniqueName": "C:\\Users\\esb54\\source\\repos\\bbfl\\BBFL_Console_App\\BBFL\\BBFL.csproj",
       "projectName": "BBFL",
-      "projectPath": "C:\\Users\\esb54\\source\\repos\\bbfl\\BBFL\\BBFL\\BBFL.csproj",
+      "projectPath": "C:\\Users\\esb54\\source\\repos\\bbfl\\BBFL_Console_App\\BBFL\\BBFL.csproj",
       "packagesPath": "C:\\Users\\esb54\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\esb54\\source\\repos\\bbfl\\BBFL\\BBFL\\obj\\",
+      "outputPath": "C:\\Users\\esb54\\source\\repos\\bbfl\\BBFL_Console_App\\BBFL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -181,7 +181,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
       }
     }
   }

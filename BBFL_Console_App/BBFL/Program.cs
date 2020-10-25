@@ -13,7 +13,6 @@ namespace BBFL
             teams[0].Stats = Statistics.ReadStatsFromCSV("1", teams[0]);
             {
                 Console.WriteLine("Overall: " + teams[0].Stats.Overall);
-
             }
 
             Console.ReadLine();
