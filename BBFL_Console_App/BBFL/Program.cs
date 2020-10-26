@@ -7,7 +7,7 @@ namespace BBFL
         static void Main(string[] args)
         {
             //Gets teams loaded into memory
-            var teams = ProTeam.ReadInTeamsFromCSV(UtilityFunctions.pathTo_pro_teams);
+            var teams = ProTeam.ReadInTeamsFromCSV(UtilityFunctions.pathTo_pro_teams, "1");
 
             //Gets teams stats and load that into memory
             for (int i = 0; i < teams.Length; i++)

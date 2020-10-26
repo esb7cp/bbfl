@@ -43,9 +43,9 @@ public class ProTeam
 	/***********************************************************************************
 	 *						FUNCTIONS												   *
 	***********************************************************************************/
-	public static ProTeam[] ReadInTeamsFromCSV(string path)
+	public static ProTeam[] ReadInTeamsFromCSV(string path, string year)
     {
-		var reader = new StreamReader(path);
+		var reader = new StreamReader(path + year + ".csv");
 		var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
 		var records = csv.GetRecords<ProTeam>();
 		records = records.ToArray();
