@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography;
 
 //This class simulates games between two teams
 public class Simulator
@@ -58,7 +59,30 @@ public class Simulator
 		}
 		return percentHomeTeam;
 	}
+	/* This function gives us the percent the home team will win the game.
+	 *		See Zach's doc for more clear information on how this is done.
+	 * Inputs:
+	 *		homeTeam - The home team
+	 *		awayTeam - The away team
+	 * Outputs:
+	 *		Returns the percent change the home team will win
+	 *		Outputs nothing to the console
+	 */
 
+	public static bool HomeTeamWin(float percentChanceToWin)
+	{
+		Random random = new Random();
+		int r = random.Next(0, 99);
+		if (r > percentChanceToWin) return false;
+		return true;
+	}
+	/* This function lets us know if the home team wins
+	 * Inputs:
+	 *		percentChanceToWin - the percent chance for the home team to win
+	 * Outputs:
+	 *		returns true if the home team wins, false if the home team loses
+	 *		Nothing to the console
+	 */
 	
 
 	private static float OffensiveAdvantage(ProTeam team1, ProTeam team2)

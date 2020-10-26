@@ -18,7 +18,9 @@ namespace BBFL
 
             float temp = Simulator.DoSimulation(teams[0], teams[1]);
             Console.WriteLine(teams[0].Team + " has a " + temp + "% chance to beat " + teams[1].Team);
-
+            if (Simulator.HomeTeamWin(temp) == true) Console.WriteLine(teams[0].Team + " wins.");
+            else Console.WriteLine(teams[1].Team + " wins.");
+            
             Console.ReadLine();
         }
     }
